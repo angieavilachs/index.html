@@ -1,0 +1,79 @@
+
+body{
+    background-image: url(background.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    margin: auto;
+    box-sizing: border-box;
+
+} 
+
+body>div{
+
+    background-color: rgba(64, 62, 62, 0.7);
+    margin: 80px 280px;
+    border-radius:15px;
+    padding: 5%;
+    box-sizing: border-box;
+
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+header div{
+    color: rgb(79, 209, 79);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(79, 209, 79);
+    padding: 10px;
+    width: auto;
+    text-align: center;
+}
+
+
+section{
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#caricaorange{
+    border-style: none;
+    padding: 10px;
+    background-color: orange;
+    width: 30%;
+    border-radius: 5px;
+    
+}
+
+#caricagreen{
+    border-style: none;
+    padding: 10px;
+    background-color: green;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#caricared{
+    border-style: none;
+    padding: 10px;
+    background-color: red;
+    width: 10%;
+    border-radius: 5px;
+}
